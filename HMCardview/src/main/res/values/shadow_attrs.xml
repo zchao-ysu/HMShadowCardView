@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--shadow effect size-->
+    <attr name="hm_shadowEffect" format="dimension" />
+    <!--shadow color-->
+    <attr name="hm_shadowColor" format="color" />
+    <!--shadow offset on x-->
+    <attr name="hm_dx" format="dimension" />
+    <!--shadow offset on y-->
+    <attr name="hm_dy" format="dimension" />
+    <!--    shadow inset-->
+    <attr name="hm_shadow_inset" format="dimension" />
+    <!--    card background,nullable. if don't set it,the card well create rectangle fill color with hm_card_color-->
+    <attr name="hm_card_drawable" format="reference" />
+    <!--    card background color-->
+    <attr name="hm_card_color" format="color" />
+    <!--    shadow or card background corner-->
+    <attr name="hm_card_corner" format="dimension" />
+    <attr name="hm_card_corner_lt" format="dimension" />
+    <attr name="hm_card_corner_rt" format="dimension" />
+    <attr name="hm_card_corner_lb" format="dimension" />
+    <attr name="hm_card_corner_rb" format="dimension" />
+
+    <declare-styleable name="HMShadowCardView">
+        <attr name="hm_shadowEffect" />
+        <attr name="hm_shadowColor" />
+        <attr name="hm_dx" />
+        <attr name="hm_dy" />
+        <attr name="hm_card_drawable" />
+        <attr name="hm_shadow_inset" />
+        <attr name="hm_card_color" />
+        <attr name="hm_card_corner" />
+        <attr name="hm_card_corner_lt" />
+        <attr name="hm_card_corner_rt" />
+        <attr name="hm_card_corner_lb" />
+        <attr name="hm_card_corner_rb" />
+    </declare-styleable>
+</resources>
