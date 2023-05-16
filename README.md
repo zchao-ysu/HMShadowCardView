@@ -1,10 +1,10 @@
 # HMShadowCardView
 
-Fix android CardView can't modify shadow color. 
+Fix android CardView can't modify shadow color.
 
 ## How to use:
-``` java
 
+``` java
 <com.yuan.hmcardview.HMShadowCardView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -26,3 +26,20 @@ Fix android CardView can't modify shadow color.
         android:textStyle="bold" />
 </com.yuan.hmcardview.HMShadowCardView>
 ```
+
+## Attribute Description
+
+| Attr name         | Description                                                                                                       |
+|:------------------|:------------------------------------------------------------------------------------------------------------------|
+| hm_card_color     | Card background, just valid when hm_card_drawable is null.                                                        |
+| hm_dx             | The shadow offset on x axle.                                                                                      |
+| hm_dy             | The shadow offset on y axle.                                                                                      |
+| hm_shadowColor    | Card shadow color.                                                                                                |
+| hm_shadowEffect   | Card shadow diffusion range.                                                                                      |
+| hm_shadow_inset   | Card shadow inset size.                                                                                           |
+| hm_card_drawable  | Card background, The view well create a rectangle background by hm_card_color and hm_card_corner when it is null. |
+| hm_card_corner    | Card background corner.                                                                                           |
+| hm_card_corner_lt | Card background corner of top-left.                                                                               |
+| hm_card_corner_rt | Card background corner of top-right.                                                                              |
+| hm_card_corner_lb | Card background corner of bottom-left.                                                                            |
+| hm_card_corner_rb | Card background corner of bottom-right.                                                                           |
