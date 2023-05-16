@@ -9,6 +9,10 @@
 ## 使用方法:
 
 ``` java
+ api project(path: ':HMCardview')
+```
+
+``` java
 <com.yuan.hmcardview.HMShadowCardView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
