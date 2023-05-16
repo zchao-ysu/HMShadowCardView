@@ -2,7 +2,7 @@
 
 Fix android CardView can't modify shadow color.
 
-[中文说明]:https://github.com/zchao-ysu/HMShadowCardView/blob/main/README_CN.md
+## [中文说明](https://github.com/zchao-ysu/HMShadowCardView/blob/main/README_CN.md)
 
 ## Example
 
