@@ -1,6 +1,6 @@
 # HMShadowCardView
-    Fix android cardview can't modify shadow color.
-    How to use:
+    解决CardView无法调整颜色问题
+    使用方法:
 ...sh
 <com.yuan.hmcardview.HMShadowCardView
     android:layout_width="wrap_content"
