@@ -1,7 +1,7 @@
 # HMShadowCardView
     Fix android cardview can't modify shadow color.
     How to use:
-...sh
+>
 <com.yuan.hmcardview.HMShadowCardView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -22,4 +22,4 @@
         android:textSize="17dp"
         android:textStyle="bold" />
 </com.yuan.hmcardview.HMShadowCardView>
-...
+>

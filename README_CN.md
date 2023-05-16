@@ -1,7 +1,7 @@
 # HMShadowCardView
     解决CardView无法调整颜色问题
     使用方法:
-...sh
+>
 <com.yuan.hmcardview.HMShadowCardView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -22,4 +22,4 @@
         android:textSize="17dp"
         android:textStyle="bold" />
 </com.yuan.hmcardview.HMShadowCardView>
-...
+>
