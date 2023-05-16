@@ -2,6 +2,10 @@
 
 解决CardView无法调整颜色问题
 
+## 示例
+
+![示例](https://github.com/zchao-ysu/HMShadowCardView/blob/main/screenShot/example.png)
+
 ## 使用方法:
 
 ``` java
