@@ -4,7 +4,7 @@
 
 ## 示例
 
-![示例](https://github.com/zchao-ysu/HMShadowCardView/blob/main/screenShot/example.png)
+![示例](https://github.com/zchao-ysu/HMShadowCardView/blob/main/screenShot/example.png =x600)
 
 ## 使用方法:
 
