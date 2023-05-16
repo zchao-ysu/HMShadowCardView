@@ -4,7 +4,7 @@ Fix android CardView can't modify shadow color.
 
 ## Example
 
-![example](https://github.com/zchao-ysu/HMShadowCardView/blob/main/screenShot/example.png =x600)
+<img src="https://github.com/zchao-ysu/HMShadowCardView/blob/main/screenShot/example.png" width="300"/>
 
 ## How to use:
 
