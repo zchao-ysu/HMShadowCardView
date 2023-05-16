@@ -19,49 +19,46 @@
             android:layout_height="wrap_content"
             android:padding="20dp"
             app:hm_card_color="#FF9800"
-            app:hm_card_corner="30dp"
-            app:hm_dx="3dp"
-            app:hm_dy="5dp"
-            app:hm_shadowColor="#80000000"
+            app:hm_card_corner="20dp"
+            app:hm_dx="10dp"
+            app:hm_dy="10dp"
+            app:hm_shadowColor="#50000000"
             app:hm_shadowEffect="10dp"
             app:hm_shadow_inset="3dp">
 
             <TextView
-                android:layout_width="200dp"
-                android:layout_height="50dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
                 android:gravity="center"
-                android:text="Button"
+                android:text="HMShadowCardView"
                 android:textColor="#fff"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
         </com.yuan.hmcardview.HMShadowCardView>
 
-
-        <FrameLayout
+        <com.yuan.hmcardview.HMShadowCardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <!--The shadow well be clip if HMShadowCardView don't set padding and parent don't set android:clipChildren="false"-->
-            <com.yuan.hmcardview.HMShadowCardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:hm_card_color="#FF9800"
-                app:hm_card_corner="30dp"
-                app:hm_dx="3dp"
-                app:hm_dy="5dp"
-                app:hm_shadowColor="#80000000"
-                app:hm_shadowEffect="10dp"
-                app:hm_shadow_inset="3dp">
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            app:hm_card_color="#FF9800"
+            app:hm_card_corner="30dp"
+            app:hm_card_drawable="@drawable/card_bg"
+            app:hm_dx="10dp"
+            app:hm_dy="10dp"
+            app:hm_shadowColor="#50000000"
+            app:hm_shadowEffect="10dp"
+            app:hm_shadow_inset="3dp">
 
-                <TextView
-                    android:layout_width="200dp"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="Button"
-                    android:textColor="#fff"
-                    android:textSize="17dp"
-                    android:textStyle="bold" />
-            </com.yuan.hmcardview.HMShadowCardView>
-        </FrameLayout>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:text="HMShadowCardView"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </com.yuan.hmcardview.HMShadowCardView>
+
 
         <com.yuan.hmcardview.HMShadowCardView
             android:layout_width="wrap_content"
@@ -81,13 +78,9 @@
                 android:gravity="center"
                 android:text="Button"
                 android:textColor="#fff"
-                android:textSize="17dp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
         </com.yuan.hmcardview.HMShadowCardView>
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            app:cardElevation=""
-            android:layout_height="wrap_content"/>
     </LinearLayout>
 
 </FrameLayout>
