@@ -1,16 +1,17 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
 }
 
 android {
-    namespace 'com.yuan.hmcardview'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.yuan.hmcardview"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

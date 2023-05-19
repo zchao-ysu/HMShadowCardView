@@ -1,6 +1,47 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-    id 'com.android.application' version '7.3.1' apply false
-    id 'com.android.library' version '7.3.1' apply false
-    id 'org.jetbrains.kotlin.android' version '1.7.20' apply false
+buildscript {
+    ext.kotlin_version = "1.7.20"
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            allowInsecureProtocol = true
+        }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
+            allowInsecureProtocol = true
+        }
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.3.1"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.18.0'
+
+    }
 }
+
+allprojects {
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            allowInsecureProtocol = true
+        }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
+            allowInsecureProtocol = true
+        }
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+    plugins.withId("com.vanniktech.maven.publish") {
+        mavenPublish { sonatypeHost = "S01" }
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

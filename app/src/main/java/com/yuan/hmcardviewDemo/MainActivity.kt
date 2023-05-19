@@ -1,4 +1,4 @@
-package com.yuan.hmcardview
+package com.yuan.hmcardviewDemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
